@@ -44,6 +44,7 @@ ul.nav li a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 125%;
+    font-weight: 900;
 }
 
 ul.nav li a:hover {
@@ -171,7 +172,6 @@ p {
 }
 
 ul {
-    width: 90vw;
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
