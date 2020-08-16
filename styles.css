@@ -30,12 +30,11 @@ ul.nav {
     /* Safari */
     position: sticky;
     top: 0;
-    border: 1px solid red;
 }
 
 ul.nav li {
     float: left;
-    width: 33.3vw;
+    width: 33vw;
 }
 
 ul.nav li a {
