@@ -31,6 +31,7 @@ ul.nav {
     position: sticky;
     top: 0;
     width: 100vw;
+    border: 1px solid red;
 }
 
 ul.nav li {
