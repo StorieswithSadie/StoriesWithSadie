@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font: 16px Verdana;
+}
+
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+h1.titleText {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 16px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddd;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+    width: 33vw;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #ccc;
+}
+
+.active {
+    background-color: #AAF;
+}
+
+table.heroImage {
+    background-image: url("media/boxBook.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 54vh;
+    animation-name: slideshow;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+td {
+    text-align: center;
+}
+
+.heroText {
+    font-size: 26px;
+    color: #DDF;
+    text-shadow: 0px 0px 5px #111;
+}
+
+input.search {
+    width: 40vw;
+    min-width: 400px;
+    height: 32px;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    text-align: center;
+}
+
+div.videoPoster {
+    width: 32vw;
+    min-width: 160px;
+    height: 18vw;
+    min-height: 90px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table.gallery {
+    width: 100vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 16px;
+}
+
+table.gallery tr {
+    width: 100vw;
+    height: auto;
+}
+
+table.gallery tr td {
+    margin-top: 16px;
+    margin-left: .5vw;
+    margin-right: .5vw;
+    width: 32vw;
+    min-width: 320px;
+    max-width: 640px;
+    height: 18vw;
+    min-height: 180px;
+    max-height: 360px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    vertical-align: center;
+    font-size: 22px;
+    color: #DDF;
+    text-shadow: 0px 0px 5px #111;
+    cursor: pointer;
+}
+
+table.gallery tr td:hover {
+    opacity: .8;
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url("media/boxBook.jpg");
+    }
+
+    33% {
+        background-image: url("media/handBook.jpg");
+    }
+
+    66% {
+        background-image: url("media/stackBook.jpg");
+    }
+
+    100% {
+        background-image: url("media/boxBook.jpg");
+    }
+}
+
+form {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
