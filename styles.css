@@ -168,3 +168,7 @@ p {
     margin-right: auto;
     text-align: left;
 }
+
+ul {
+    list-style-type: circle;
+}
