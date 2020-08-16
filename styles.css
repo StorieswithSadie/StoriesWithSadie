@@ -160,3 +160,11 @@ form {
     margin-right: auto;
     text-align: left;
 }
+
+p {
+    width: 90vw;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
