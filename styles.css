@@ -163,7 +163,7 @@ form {
 }
 ul.textList{
 padding-top:16px;
-padding-left:26px;
+padding-left:auto;
 }
 p {
     width: 90vw;
