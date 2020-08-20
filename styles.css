@@ -161,7 +161,9 @@ form {
     margin-right: auto;
     text-align: left;
 }
-
+li.textList{
+padding-top:16px;
+}
 p {
     width: 90vw;
     max-width: 1600px;
