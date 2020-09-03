@@ -14,7 +14,7 @@ var address;
 
 function imageGen() {
     //DYNAMICALLY CREATE TD ELEMENTS WITH IDLIST
-    for (i = 0; i < idList.length; i++) {
+    for (i = idList.length - 1; i >= 0; i -= 1) {
         node = document.createElement("TD");
         node.id = idList[i];
         node.addEventListener("click", redirect);
