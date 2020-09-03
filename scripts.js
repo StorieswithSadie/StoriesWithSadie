@@ -6,7 +6,7 @@ var idList = ["MG8WbK800U4", "AyiSoYyXpwQ", "Hi_qaGwi7jo", "gGDTGoDRy4Y", "kzde5
 var titleList = ["The Giving Tree", "Green Eggs and Ham", "Rain", "Room on the Broom", "What a Funny Bunny"];
 var authorList = ["Shel Silverstein", "Dr. Seuss", "Wonder Starters", "Julia Donaldson Axel Scheffler", "ABC Adventures"];
 var readerList = ["Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg"];
-var genreList = ["Fiction", "Fiction", "Fiction", "Fiction", "Fiction"];
+var genreList = ["Fiction", "Fiction", "Fiction", "Fiction"];
 
 var videoPosters;
 var node;
