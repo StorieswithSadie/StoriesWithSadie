@@ -54,17 +54,5 @@ function search(e) {
             document.getElementById(idList[i]).style.display = "none";
         }
     }
-}
-
-function focusSearch(e) {
-    if (e.value == "Search") {
-        e.value == "";
-    }
-}
-
-function blurSearch(e) {
-    if (e.value == "") {
-        e.value == "Search";
-    }
-}     
+}    
 
