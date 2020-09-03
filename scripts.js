@@ -20,16 +20,14 @@ function imageGen() {
         node.addEventListener("click", redirect);
         node.classList.add("videoPoster");
         document.getElementById("videoPosterContain").appendChild(node);
-        node.style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
-        node.innerHTML = titleList[i] + " by " + authorList[i];
     }
 
     //ADD IMAGES AND TITLE TO EACH VIDEOPOSTER ELEMENT
-    //videoPosters = document.getElementsByClassName("videoPoster");
-    //for (i = 0; i < videoPosters.length; i++) {
-    //    videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
-    //    videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
-    //}
+    videoPosters = document.getElementsByClassName("videoPoster");
+    for (i = 0; i < videoPosters.length; i++) {
+        videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
+        videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
+    }
 }
 
 function redirect(e) {
