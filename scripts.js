@@ -14,7 +14,7 @@ var address;
 
 function imageGen() {
     //DYNAMICALLY CREATE TD ELEMENTS WITH IDLIST
-    for (i = idList.length - 1; i >= 0; i -= 1) {
+    for (i = 0; i < idList.length; i++) {
         node = document.createElement("TD");
         node.id = idList[i];
         node.addEventListener("click", redirect);
@@ -24,7 +24,7 @@ function imageGen() {
 
     //ADD IMAGES AND TITLE TO EACH VIDEOPOSTER ELEMENT
     videoPosters = document.getElementsByClassName("videoPoster");
-    for (i = videoPosters.length; i >= 0; i -= 1) {
+    for (i = 0; i < videoPosters.length; i++) {
         videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
         videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
     }
