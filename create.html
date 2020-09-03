@@ -30,14 +30,30 @@
         <li><a class="active" href="create.html">Create</a></li>
         <li><a href="about.html">About Us</a></li>
     </ul>
+    
+    <!--Form below-->
 
-    <form>
-        <input type="input" id="youtubeVideoSrc" name="youtubeVideoSrc" value="Paste a youtube link here">
-        <br />
-        <input type="checkbox" id="parentalPerm" name="parentalPerm" value="allowed">
-        <label for="parentalPerm"> By checking the box, you agree that you are over 18 OR have been given parental
-            permission to upload</label>
+    <form name="contact" method="POST" data-netlify="true">
+    <p>
+        <label>Your Name: <input type="text" name="name" /></label>   
+    </p>
+    <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+        <label>Your Role: <select name="role[]" multiple>
+        <option value="leader">Leader</option>
+        <option value="follower">Follower</option>
+        </select></label>
+    </p>
+    <p>
+        <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+        <button type="submit">Send</button>
+    </p>
     </form>
+
 
     <table class="heroImage">
         <tr>
