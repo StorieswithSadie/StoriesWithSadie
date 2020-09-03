@@ -30,7 +30,7 @@ function imageGen() {
             videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
         }
     } else {
-        alert("Data Error: Mismatching list lengths. This is a tmporary issue.");
+        Window.alert("Data Error: Mismatching list lengths. This is a temporary issue.");
     }
 
 }
