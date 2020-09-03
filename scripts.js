@@ -62,7 +62,7 @@ function focusSearch(e) {
     }
 }
 
-function blurSearch() {
+function blurSearch(e) {
     if (e.value == "") {
         e.value == "Search";
     }
