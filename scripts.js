@@ -14,22 +14,22 @@ var address;
 
 function imageGen() {
     //DYNAMICALLY CREATE TD ELEMENTS WITH IDLIST
-    if (idList.length == titleList.length == authorList.length == readerList.length == genreList.length) {
-        for (i = 0; i < idList.length; i++) {
-            node = document.createElement("TD");
-            node.id = idList[i];
-            node.addEventListener("click", redirect);
-            node.classList.add("videoPoster");
-            document.getElementById("videoPosterContain").appendChild(node);
-        }
+    for (i = 0; i < idList.length; i++) {
+        node = document.createElement("TD");
+        node.id = idList[i];
+        node.addEventListener("click", redirect);
+        node.classList.add("videoPoster");
+        document.getElementById("videoPosterContain").appendChild(node);
+    }
 
-        //ADD IMAGES AND TITLE TO EACH VIDEOPOSTER ELEMENT
-        videoPosters = document.getElementsByClassName("videoPoster");
-        for (i = 0; i < videoPosters.length; i++) {
-            videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
-            videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
-        }
-    } else {
+    //ADD IMAGES AND TITLE TO EACH VIDEOPOSTER ELEMENT
+    videoPosters = document.getElementsByClassName("videoPoster");
+    for (i = 0; i < videoPosters.length; i++) {
+        videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
+        videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
+    }
+    
+    if (idList.length + titleList.length + authorList.length + readerList.length + genreList.length != idList.length * 5) {
         alert("Data Error: Mismatching list lengths. This is a temporary issue. Error Code: " + idList.length + titleList.length + authorList.length + readerList.length + genreList.length);
     }
 
