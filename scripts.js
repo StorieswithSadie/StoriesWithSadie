@@ -24,7 +24,7 @@ function imageGen() {
 
     //ADD IMAGES AND TITLE TO EACH VIDEOPOSTER ELEMENT
     videoPosters = document.getElementsByClassName("videoPoster");
-    for (i = 0; i < videoPosters.length; i++) {
+    for (i = videoPosters.length; i >= 0; i -= 1) {
         videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
         videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
     }
