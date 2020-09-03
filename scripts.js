@@ -14,7 +14,7 @@ var address;
 
 function imageGen() {
     //DYNAMICALLY CREATE TD ELEMENTS WITH IDLIST
-    if (idList.length == titlList.length == authorList.length == readerList.length == genreList.length) {
+    if (idList.length == titleList.length == authorList.length == readerList.length == genreList.length) {
         for (i = 0; i < idList.length; i++) {
             node = document.createElement("TD");
             node.id = idList[i];
@@ -30,7 +30,7 @@ function imageGen() {
             videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
         }
     } else {
-        Window.alert("Data Error: Mismatching list lengths. This is a temporary issue.");
+        Window.alert("Data Error: Mismatching list lengths. This is a temporary issue. Error Code: " + idList.length + titleList.length + authorList.length + readerList.length + genreList.length);
     }
 
 }
