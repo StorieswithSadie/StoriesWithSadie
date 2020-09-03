@@ -26,7 +26,7 @@ function imageGen() {
     videoPosters = document.getElementsByClassName("videoPoster");
     for (i = 0; i < videoPosters.length; i++) {
         videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
-        videoPosters[i].innerHTML = titleList[i] + "\n" + authorList[i];
+        videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
     }
 }
 
