@@ -60,7 +60,7 @@ table.heroImage {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 54vh;
+    height: 34vh;
     animation-name: slideshow;
     animation-duration: 12s;
     animation-iteration-count: infinite;
