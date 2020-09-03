@@ -55,3 +55,16 @@ function search(e) {
         }
     }
 }
+
+function focusSearch(e) {
+    if (e.value == "Search") {
+        e.value == "";
+    }
+}
+
+function blurSearch() {
+    if (e.value == "") {
+        e.value == "Search";
+    }
+}     
+
