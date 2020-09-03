@@ -3,6 +3,10 @@ console.clear();
 
 //ADD VIDEO IDS TO THE IDLIST ARRAY, IN THE FORMAT ,"[videoID]"
 var idList = ["MG8WbK800U4", "AyiSoYyXpwQ", "Hi_qaGwi7jo", "gGDTGoDRy4Y", "kzde5cAihnE"];
+var titleList = ["The Giving Tree", "Green Eggs and Ham", "Rain", "Room on the Broom", "What a Funny Bunny"];
+var authorList = ["Shel Silverstein", "Dr. Seuss", "Wonder Starters", "Julia Donaldson Axel Scheffler", "ABC Adventures"];
+var readerList = ["Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg"];
+var genreList = ["Fiction", "Fiction", "Fiction", "Fiction", "Fiction"];
 
 var videoPosters;
 var node;
@@ -22,7 +26,7 @@ function imageGen() {
     videoPosters = document.getElementsByClassName("videoPoster");
     for (i = 0; i < videoPosters.length; i++) {
         videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
-        videoPosters[i].innerHTML = "Video ID: " + videoPosters[i].id;
+        videoPosters[i].innerHTML = titleList[i];
     }
 }
 
