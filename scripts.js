@@ -28,9 +28,9 @@ function imageGen() {
         for (i = 0; i < videoPosters.length; i++) {
             videoPosters[i].style.backgroundImage = "url('https://img.youtube.com/vi/" + videoPosters[i].id + "/sddefault.jpg')";
             videoPosters[i].innerHTML = titleList[i] + " by " + authorList[i];
-        } else {
-            alert("Data Error: Mismatching list lengths. This is a tmporary issue.");
         }
+    } else {
+        alert("Data Error: Mismatching list lengths. This is a tmporary issue.");
     }
 
 }
