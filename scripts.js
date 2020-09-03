@@ -41,6 +41,6 @@ function redirect(e) {
 }
 
 function search(e) {
-    searchTerm = e.target.value;
+    searchTerm = e.value;
     alert(searchTerm);
 }
