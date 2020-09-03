@@ -1,11 +1,14 @@
 console.clear();
 
 //ADD VIDEO IDS TO THE IDLIST ARRAY, IN THE FORMAT ,"[videoID]"
-var idList = ["MG8WbK800U4", "AyiSoYyXpwQ", "Hi_qaGwi7jo", "gGDTGoDRy4Y", "kzde5cAihnE", "xS8S6RzRM_k", "bvkxj3VRoWs", "5_tlAu0Z5s8", "8lNJZ-C8_ik"];
-var titleList = ["The Giving Tree", "Green Eggs and Ham", "Rain", "Room on the Broom", "What a Funny Bunny", "Oh, the Places You'll Go", "Music of the Meadow", "The Colors of Fall", "Birds"];
-var authorList = ["Shel Silverstein", "Dr. Seuss", "Wonder Starters", "Julia Donaldson Axel Scheffler", "ABC Adventures", "Dr. Seuss", "Susan Ring", "Leslie Eckard", "Wonder Starters"];
-var readerList = ["Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg"];
-var genreList = ["Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction"];
+var idList = ["MG8WbK800U4", "AyiSoYyXpwQ", "Hi_qaGwi7jo", "gGDTGoDRy4Y", "kzde5cAihnE", "xS8S6RzRM_k", "bvkxj3VRoWs", "5_tlAu0Z5s8", "8lNJZ-C8_ik", "4n6-7NA9LNc", "GPWrmekih9g"];
+var titleList = ["The Giving Tree", "Green Eggs and Ham", "Rain", "Room on the Broom", "What a Funny Bunny", "Oh, the Places You'll Go", "Music of the Meadow", "The Colors of Fall",
+                 "Birds", "Fox in Socks", "Wocket in my Pocket"];
+var authorList = ["Shel Silverstein", "Dr. Seuss", "Wonder Starters", "Julia Donaldson Axel Scheffler", "ABC Adventures", "Dr. Seuss", "Susan Ring", "Leslie Eckard", "Wonder Starters",
+                  "Dr. Seuss", "Dr. Seuss"];
+var readerList = ["Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg",
+                 "Sadie Sahhlberg", "Sadie Sahlberg"];
+var genreList = ["Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction"];
 
 var videoPosters;
 var node;
