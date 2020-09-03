@@ -86,6 +86,10 @@ input.search {
     text-align: center;
 }
 
+input.search:hover {
+    border: 1px solid #AAF;
+}
+
 div.videoPoster {
     width: 32vw;
     min-width: 160px;
