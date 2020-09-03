@@ -41,9 +41,10 @@ function redirect(e) {
 }
 
 function search(e) {
-    searchTerm = e.value.toLowerCase();
+    searchTerm = e.value;
+    searchTerm = searchTerm.toLowerCase();
      for (i = 0; i < idList.length; i++) {
-        if (titleList[i].indexOf(searchTerm) + authorList[i].indexOf(searchTerm)  + readerList[i].indexOf(searchTerm) + genreList[i].indexOf(searchTerm) > -4) {
+        if (titleList[i].toLowerCase().indexOf(searchTerm) + authorList[i].indexOf(searchTerm)  + readerList[i].indexOf(searchTerm) + genreList[i].indexOf(searchTerm) > -4) {
             document.getElementById(idList[i]).style.display = "inline-block";
         } else {
             document.getElementById(idList[i]).style.display = "none";
