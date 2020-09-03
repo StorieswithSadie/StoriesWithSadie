@@ -44,7 +44,9 @@ function search(e) {
     searchTerm = e.value;
     searchTerm = searchTerm.toLowerCase();
      for (i = 0; i < idList.length; i++) {
-        if (titleList[i].toLowerCase().indexOf(searchTerm) + authorList[i].toLowerCase().indexOf(searchTerm) > -2) {
+        if (titleList[i].toLowerCase().indexOf(searchTerm) > -1) {
+            document.getElementById(idList[i]).style.display = "inline-block";
+        } else if (authorList[i].toLowerCase().indexOf(searchTerm) > -1) {
             document.getElementById(idList[i]).style.display = "inline-block";
         } else if (readerList[i].toLowerCase().indexOf(searchTerm) + genreList[i].toLowerCase().indexOf(searchTerm) > -2) {
             document.getElementById(idList[i]).style.display = "inline-block";
