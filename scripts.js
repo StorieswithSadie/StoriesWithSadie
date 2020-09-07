@@ -46,7 +46,7 @@ function redirect(e) {
     window.location = "https://www.youtube-nocookie.com/embed/" + address;
 }
 
-function keyDown(event) {
+function keyUp(event) {
   //if (event.keyCode == 13) {
     search();
   //}
