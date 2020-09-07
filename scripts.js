@@ -52,13 +52,10 @@ function search(e) {
     for (i = 0; i < idList.length; i++) {
         if (titleList[i].toLowerCase().indexOf(searchTerm) > -1) {
           document.getElementById(idList[i]).style.display = "inline-block";
-          resultAmount++;
         } else if (authorList[i].toLowerCase().indexOf(searchTerm) > -1) {
           document.getElementById(idList[i]).style.display = "inline-block";
-          resultAmount++;
         } else if (readerList[i].toLowerCase().indexOf(searchTerm) + genreList[i].toLowerCase().indexOf(searchTerm) > -2) {
           document.getElementById(idList[i]).style.display = "inline-block";
-          resultAmount++;
         } else {
           document.getElementById(idList[i]).style.display = "none";
         }
