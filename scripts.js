@@ -2,24 +2,23 @@ console.clear();
 
 //ADD VIDEO IDS TO THE IDLIST ARRAY, IN THE FORMAT ,"[videoID]"
 var idList = ["MG8WbK800U4", "AyiSoYyXpwQ", "Hi_qaGwi7jo", "gGDTGoDRy4Y", "kzde5cAihnE", "xS8S6RzRM_k", "bvkxj3VRoWs", "5_tlAu0Z5s8", "8lNJZ-C8_ik", "4n6-7NA9LNc", "GPWrmekih9g",
-             "CWl2PRpAP_s", "CSvF7UD1loU", "zM-6us2rm94", "2dF-d8XDsGA", "Xbu0XFbHPfA"];
+             "CWl2PRpAP_s", "CSvF7UD1loU", "zM-6us2rm94", "2dF-d8XDsGA"];
 
 
 var titleList = ["The Giving Tree", "Green Eggs and Ham", "Rain", "Room on the Broom", "What a Funny Bunny", "Oh, the Places You'll Go", "Music of the Meadow", "The Colors of Fall",
-                 "Birds", "Fox in Socks", "Wocket in my Pocket", "Goodnight Moon", "The King, the Mice, and the Cheese", "The Mitten", "Elephant and Piggie: I Will Take a Nap", 
-                 "Elephant and Piggie: I Got Invited To a Party"];
+                 "Birds", "Fox in Socks", "Wocket in my Pocket", "Goodnight Moon", "The King, the Mice, and the Cheese", "The Mitten", "Elephant and Piggie: I Will Take a Nap"];
 
 
 var authorList = ["Shel Silverstein", "Dr. Seuss", "Wonder Starters", "Julia Donaldson Axel Scheffler", "ABC Adventures", "Dr. Seuss", "Susan Ring", "Leslie Eckard", "Wonder Starters",
-                  "Dr. Seuss", "Dr. Seuss", "Margaret Brown", "Nancy and Eric Gurney", "Jan Brett", "Mo Willems", "Mo Willems"];
+                  "Dr. Seuss", "Dr. Seuss", "Margaret Brown", "Nancy and Eric Gurney", "Jan Brett", "Mo Willems"];
 
 
 var readerList = ["Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg",
-                 "Sadie Sahhlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg"];
+                 "Sadie Sahhlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg"];
 
 
 var genreList = ["Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction"
-                "Fiction", "Fiction", "Fiction"];
+                "Fiction", "Fiction"];
 
 var videoPosters;
 var node;
