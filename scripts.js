@@ -16,7 +16,7 @@ var videoPosters;
 var node;
 var address;
 
-var searchText = "Search for books here!"
+var searchText = "Search for books, authors, or readers"
 
 function imageGen() {
   
