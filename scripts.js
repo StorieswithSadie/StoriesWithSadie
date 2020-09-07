@@ -16,8 +16,6 @@ var videoPosters;
 var node;
 var address;
 
-var resultAmount;
-
 function imageGen() {
   
     //Alert if wrong list lengths have been declared. Users should NEVER see this alert, fix the issues
@@ -51,7 +49,6 @@ function redirect(e) {
 function search(e) {
     searchTerm = e.value;
     searchTerm = searchTerm.toLowerCase();
-    resultAmount = 0;
     for (i = 0; i < idList.length; i++) {
         if (titleList[i].toLowerCase().indexOf(searchTerm) > -1) {
           document.getElementById(idList[i]).style.display = "inline-block";
@@ -64,9 +61,6 @@ function search(e) {
           resultAmount++;
         } else {
           document.getElementById(idList[i]).style.display = "none";
-        }
-        if (resultAmount >= 9) {
-          break;
         }
      }
 }
