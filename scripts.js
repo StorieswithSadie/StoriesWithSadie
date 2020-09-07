@@ -46,6 +46,10 @@ function redirect(e) {
     window.location = "https://www.youtube-nocookie.com/embed/" + address;
 }
 
+function keyDown(e) {
+  alert(e.value);
+}
+
 function search(e) {
     searchTerm = e.value;
     searchTerm = searchTerm.toLowerCase();
