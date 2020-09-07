@@ -73,3 +73,5 @@ function search() {
         }
      }
 }
+
+document.getElementById("searchBox").value = "Search";
