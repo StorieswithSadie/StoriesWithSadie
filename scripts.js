@@ -16,6 +16,8 @@ var videoPosters;
 var node;
 var address;
 
+var resultAmount;
+
 function imageGen() {
   
     //Alert if wrong list lengths have been declared. Users should NEVER see this alert, fix the issues
@@ -49,15 +51,22 @@ function redirect(e) {
 function search(e) {
     searchTerm = e.value;
     searchTerm = searchTerm.toLowerCase();
-     for (i = 0; i < idList.length; i++) {
+    resultAmount = 0;
+    for (i = 0; i < idList.length; i++) {
         if (titleList[i].toLowerCase().indexOf(searchTerm) > -1) {
-            document.getElementById(idList[i]).style.display = "inline-block";
+          document.getElementById(idList[i]).style.display = "inline-block";
+          resultAmount++;
         } else if (authorList[i].toLowerCase().indexOf(searchTerm) > -1) {
-            document.getElementById(idList[i]).style.display = "inline-block";
+          document.getElementById(idList[i]).style.display = "inline-block";
+          resultAmount++;
         } else if (readerList[i].toLowerCase().indexOf(searchTerm) + genreList[i].toLowerCase().indexOf(searchTerm) > -2) {
-            document.getElementById(idList[i]).style.display = "inline-block";
+          document.getElementById(idList[i]).style.display = "inline-block";
+          resultAmount++;
         } else {
-            document.getElementById(idList[i]).style.display = "none";
+          document.getElementById(idList[i]).style.display = "none";
         }
-    }
+        if (resultAmount >= 9) {
+          break;
+        }
+     }
 }
