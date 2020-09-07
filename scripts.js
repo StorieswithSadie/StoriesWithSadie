@@ -47,9 +47,9 @@ function redirect(e) {
 }
 
 function keyDown(event) {
-  if (event.keyCode == 13) {
+  //if (event.keyCode == 13) {
     search();
-  }
+  //}
 }
 
 function search() {
