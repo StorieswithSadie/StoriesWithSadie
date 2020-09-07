@@ -16,6 +16,8 @@ var videoPosters;
 var node;
 var address;
 
+var searchText = "Search for books here!"
+
 function imageGen() {
   
     //Alert if wrong list lengths have been declared. Users should NEVER see this alert, fix the issues
@@ -47,7 +49,7 @@ function redirect(e) {
 }
 
 function searchClick() {
-  if (document.getElementById("searchBox").value == "Search") {
+  if (document.getElementById("searchBox").value == searchText) {
     document.getElementById("searchBox").value = "";
   }
 }
@@ -74,4 +76,4 @@ function search() {
      }
 }
 
-document.getElementById("searchBox").value = "Search";
+document.getElementById("searchBox").value = searchText;
