@@ -47,7 +47,7 @@ function redirect(e) {
 }
 
 function keyDown(e) {
-  alert(e.value);
+  alert(e.keyCode);
 }
 
 function search(e) {
