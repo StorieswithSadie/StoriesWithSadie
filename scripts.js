@@ -47,11 +47,12 @@ function redirect(e) {
 }
 
 function keyDown(event) {
-  alert("Keycode: " + event.keyCode);
+  if (event.keyCode == 13) {
+    search();
 }
 
-function search(e) {
-    searchTerm = e.value;
+function search() {
+    searchTerm = document.getElementById("searchBox").value;
     searchTerm = searchTerm.toLowerCase();
     for (i = 0; i < idList.length; i++) {
         if (titleList[i].toLowerCase().indexOf(searchTerm) > -1) {
