@@ -2,26 +2,28 @@ console.clear();
 
 //ADD VIDEO IDS TO THE IDLIST ARRAY, IN THE FORMAT ,"[videoID]"
 var idList = ["MG8WbK800U4", "AyiSoYyXpwQ", "Hi_qaGwi7jo", "gGDTGoDRy4Y", "kzde5cAihnE", "xS8S6RzRM_k", "bvkxj3VRoWs", "5_tlAu0Z5s8", "8lNJZ-C8_ik", "4n6-7NA9LNc", "GPWrmekih9g",
-             "CWl2PRpAP_s", "CSvF7UD1loU", "zM-6us2rm94", "2dF-d8XDsGA", "Xbu0XFbHPfA", "l68PHV6uQ1I", "9JZ07vPLv6o", "WRv9Tgcb-Aw", "BjbMhM6KIBk"];
+             "CWl2PRpAP_s", "CSvF7UD1loU", "zM-6us2rm94", "2dF-d8XDsGA", "Xbu0XFbHPfA", "l68PHV6uQ1I", "9JZ07vPLv6o", "WRv9Tgcb-Aw", "BjbMhM6KIBk", "_Lk3785ShUA", "0aO1pL6y2oU",
+             "aP-foh0bJ8g", "8ZS7w43PP5Y"];
 
 
 var titleList = ["The Giving Tree", "Green Eggs and Ham", "Rain", "Room on the Broom", "What a Funny Bunny", "Oh, the Places You'll Go", "Music of the Meadow", "The Colors of Fall",
                  "Birds", "Fox in Socks", "Wocket in my Pocket", "Goodnight Moon", "The King, the Mice, and the Cheese", "The Mitten", "Elephant and Piggie: I Will Take a Nap", 
-                 "Elephant and Piggie: I Got Invited To a Party", "Baby Bear, Baby Bear, What Do You See?", "The Whales Go By", "Mermaid School", "The Berenstain Bears: Honey Hunt"];
+                 "Elephant and Piggie: I Got Invited To a Party", "Baby Bear, Baby Bear, What Do You See?", "The Whales Go By", "Mermaid School", "The Berenstain Bears: Honey Hunt",
+                "If You Take a Mouse to School", "Youre All My Favorites", "Llama Llama Red Pajama", "Stop Monkeying Around"];
 
 
 var authorList = ["Shel Silverstein", "Dr. Seuss", "Wonder Starters", "Julia Donaldson Axel Scheffler", "ABC Adventures", "Dr. Seuss", "Susan Ring", "Leslie Eckard", "Wonder Starters",
                   "Dr. Seuss", "Dr. Seuss", "Margaret Brown", "Nancy and Eric Gurney", "Jan Brett", "Mo Willems", "Mo Willems", "Bill Martin Jr.", "Fred Phleger", "Joanne Wetzel",
-                 "Jan and Mike Berenstain"];
+                 "Jan and Mike Berenstain", "Laura Numeroff", "Sam McBratney", "Anna Dewdney", "Christine Swift"];
 
 
 var readerList = ["Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg",
                  "Sadie Sahhlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg",
-                 "Sadie Sahlberg"];
+                 "Sadie Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg"];
 
 
 var genreList = ["Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", 
-                 "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction"];
+                 "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction"];
 
 var videoPosters;
 var node;
