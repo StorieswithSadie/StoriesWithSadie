@@ -5,7 +5,7 @@ var idList = ["MG8WbK800U4", "AyiSoYyXpwQ", "Hi_qaGwi7jo", "gGDTGoDRy4Y", "kzde5
              "CWl2PRpAP_s", "CSvF7UD1loU", "zM-6us2rm94", "2dF-d8XDsGA", "Xbu0XFbHPfA", "l68PHV6uQ1I", "9JZ07vPLv6o", "WRv9Tgcb-Aw", "BjbMhM6KIBk", "_Lk3785ShUA", "0aO1pL6y2oU",
              "aP-foh0bJ8g", "8ZS7w43PP5Y", "3vKg7wqkR00", "m-tjbERb8Pk", "MPq3-Cq9f3s", "vokW1oNurns", "aBs8OBEms3Y", "1xjAAzFVcvw", "Mg1ExkfNM0s", "aKLEIDJUQ8E", "a7U13eF9cyI", 
              "Gre-kWRTS5o", "rBAsjtQfraM", "jyXwsKl_v6k", "hPWH8rXV9n4", "gJMKYNb07c4", "nOM1VxIyQ-A", "HYizIlL70T8", "0h08ed4M514", "nlzZK32eJec", "0qRlzqSOVCI", "0nNrhumixjg", 
-             "VuR-yDBBSKQ", "6R-y0zOXL64"];
+             "VuR-yDBBSKQ", "6R-y0zOXL64", "Jx2LKzQc9Pw", "FYWDNhY8_Q4", "AqYB_nJGqpo"];
 
 
 var titleList = ["The Giving Tree", "Green Eggs and Ham", "Rain", "Room on the Broom", "What a Funny Bunny", "Oh, the Places You'll Go", "Music of the Meadow", "The Colors of Fall",
@@ -15,27 +15,28 @@ var titleList = ["The Giving Tree", "Green Eggs and Ham", "Rain", "Room on the B
                  "Creepy Monsters, Sleepy Monsters, a Lullaby", "Five Little Monkeys Reading in a Bed", "Wild About Books", "No Jumping on the Bed", "The Little Engine That Could", 
                  "David Goes to School", "Be Who You Are", "Biscuit Goes to School", "The Kissing Hand", "Share, Big Bear, Share", "I Say Ooh, You Say Aah", "Down By the Cool of the Pool", 
                 "Silverlicious", "Fancy Nancy", "Click, Clack, Moo, Cows That Type", "Giggle, Giggle, Quack", "On the First Day of Grade School", "We Don't Eat Our Classmates",
-                "Knuffle Bunny"];
+                "Knuffle Bunny", "Bella's Rules", "How I Became a Pirate", "The Adventures of Beekle, the Unimaginary Friend"];
 
 
 var authorList = ["Shel Silverstein", "Dr. Seuss", "Wonder Starters", "Julia Donaldson Axel Scheffler", "ABC Adventures", "Dr. Seuss", "Susan Ring", "Leslie Eckard", "Wonder Starters",
                   "Dr. Seuss", "Dr. Seuss", "Margaret Brown", "Nancy and Eric Gurney", "Jan Brett", "Mo Willems", "Mo Willems", "Bill Martin Jr.", "Fred Phleger", "Joanne Wetzel",
                  "Jan and Mike Berenstain", "Laura Numeroff", "Sam McBratney", "Anna Dewdney", "Christine Swift", "Jennifer Plecas", "Loren Long", "Julia Donaldson", "Jane Yolen and Kelly Murphy",
                  "Eileen Christelow", "Judy Sierra", "Tedd Arnold", "Watty Piper", "David Shannon", "Todd Parr", "Alyssa Capucilli", "Audrey Penn", "Maureen Wright", "John Kane", 
-                 "Tony Mitton", "Victoria Kann", "Robin Glasser", "Doreen Cronin", "Doreen Cronin", "Emily Brenner", "Ryan Higgins", "Mo Willems"];
+                 "Tony Mitton", "Victoria Kann", "Robin Glasser", "Doreen Cronin", "Doreen Cronin", "Emily Brenner", "Ryan Higgins", "Mo Willems", "Elissa Guest", "Milinda Long", "Dan Santat"];
 
 
 var readerList = ["Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg",
                  "Sadie Sahhlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg", "Sadie Sahlberg",
                  "Sadie Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg",
                  "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", 
-                 "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg"];
+                 "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg",
+                 "Kristen Sahlberg", "Kristen Sahlberg", "Kristen Sahlberg"];
 
 
 var genreList = ["Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", 
                  "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", 
                 "Ficiton", "Ficiton", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", 
-                "Fiction", "Fiction", "Fiction"];
+                "Fiction", "Fiction", "Fiction", "Fiction", "Fiction", "Fiction"];
 
 var videoPosters;
 var node;
